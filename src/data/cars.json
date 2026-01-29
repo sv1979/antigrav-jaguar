@@ -1,0 +1,24 @@
+[
+    {
+        "id": "e-pace",
+        "name": "E-PACE",
+        "variants": [
+            {
+                "name": "ULTIMATE EDITION",
+                "price": 89000,
+                "code": "5002275357"
+            }
+        ]
+    },
+    {
+        "id": "f-pace",
+        "name": "F-PACE",
+        "variants": [
+            {
+                "name": "SVR 575 EDITION",
+                "price": 188000,
+                "code": "5002244349"
+            }
+        ]
+    }
+]

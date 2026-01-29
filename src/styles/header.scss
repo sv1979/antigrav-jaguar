@@ -1,0 +1,34 @@
+@use 'variables' as *;
+
+.app-header {
+    background-color: $color-header-bg;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 60px; // Mobile default height
+
+    .container {
+        width: 100%;
+        display: flex;
+        justify-content: center; // Mobile: Centered
+    }
+
+    .logo {
+        width: 120px;
+        height: 10px;
+        display: block;
+    }
+
+    @media (min-width: 1200px) {
+        height: 100px;
+
+        .container {
+            justify-content: flex-start; // Desktop: Left-aligned
+        }
+
+        .logo {
+            width: 154px;
+            height: 14px;
+        }
+    }
+}
