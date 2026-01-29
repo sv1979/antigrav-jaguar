@@ -1,6 +1,10 @@
 @use 'variables' as *;
 @use 'fonts';
 
+html {
+    font-size: 62.5%; // 1rem = 10px (62.5% of 16px)
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -9,6 +13,7 @@
 
 body {
     font-family: $font-main;
+    font-size: 1.6rem; // 16px with new base
     background-color: $color-bg;
     color: $color-text;
     line-height: 1.5;
@@ -38,4 +43,8 @@ button {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 $spacing-md;
+}
+
+.disclaimer_wrap {
+    padding: $spacing-lg 0;
 }

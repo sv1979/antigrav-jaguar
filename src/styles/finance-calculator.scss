@@ -4,7 +4,7 @@
     padding: $spacing-xl 0;
 
     h2 {
-        font-size: 1.5rem;
+        font-size: 2.7rem;
         margin-bottom: $spacing-lg;
         border-bottom: 1px solid $color-border;
         padding-bottom: $spacing-sm;
@@ -13,7 +13,7 @@
     .calc-container {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        gap: 60px;
+        gap: 6rem;
 
         @media (max-width: 768px) {
             grid-template-columns: 1fr;
@@ -27,17 +27,17 @@
             display: block;
             font-weight: 700;
             text-transform: uppercase;
-            font-size: 0.85rem;
+            font-size: 1.8rem;
             margin-bottom: $spacing-sm;
         }
 
         .input-control {
             width: 100%;
-            padding: 12px;
+            padding: 1rem;
             font-family: inherit;
             border: 1px solid #ccc;
             background-color: white;
-            font-size: 1rem;
+            font-size: 1.6rem;
 
             &:focus {
                 outline: 1px solid #000;
@@ -53,7 +53,7 @@
                 flex: 1;
                 padding: 15px 10px;
                 border: 1px solid #ccc;
-                font-size: 0.75rem;
+                font-size: 1.2rem;
                 text-transform: uppercase;
                 font-weight: 600;
                 cursor: pointer;
@@ -80,7 +80,7 @@
             margin-bottom: $spacing-xl;
 
             h3 {
-                font-size: 2rem;
+                font-size: 3.6rem;
                 margin-bottom: 5px;
             }
 
@@ -96,12 +96,12 @@
             margin-bottom: $spacing-xl;
 
             .amount {
-                font-size: 2.5rem;
+                font-size: 3.6rem;
                 font-weight: 700;
             }
 
             .frequency {
-                font-size: 1rem;
+                font-size: 1.8rem;
                 font-weight: 700;
                 text-transform: uppercase;
             }
@@ -109,7 +109,7 @@
             .label {
                 display: block;
                 margin-top: 5px;
-                font-size: 0.8rem;
+                font-size: 1.6rem;
                 color: #666;
                 text-transform: uppercase;
             }
@@ -118,7 +118,7 @@
         .breakdown-table {
             width: 100%;
             margin-bottom: $spacing-xl;
-            font-size: 0.9rem;
+            font-size: 1.6rem;
 
             .row {
                 display: flex;

@@ -167,7 +167,7 @@ const FinanceCalculator = () => {
                         </select>
                     </div>
 
-                    <div style={{ fontSize: '0.8rem', color: '#666', marginTop: '20px' }}>
+                    <div class="estimated_rate">
                         <strong>Estimated Interest Rate: {rate}% p.a.</strong>
                         <p>Our interest rates vary between 6.45% and 11.45% depending on your personal circumstances.</p>
                     </div>
@@ -236,7 +236,7 @@ const FinanceCalculator = () => {
                         </div>
                     </div>
 
-                    <p style={{ fontSize: '0.75rem', color: '#888', marginBottom: '20px' }}>
+                    <p>
                         Note: the picture may not depict the sub-model you've chosen
                     </p>
 

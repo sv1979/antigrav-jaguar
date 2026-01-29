@@ -1,0 +1,72 @@
+@use 'variables' as *;
+
+.app-footer {
+    color: black;
+    font-size: 1.6rem;
+    margin-top: auto;
+    border-top: 1px solid $color-border;
+
+    .footer_inner {
+        padding: 3.4rem 0;
+    }
+
+    .footer_logo {
+        width: 11.3rem;
+        height: 4rem;
+        display: inline-block;
+        margin-bottom: 1.7rem;
+    }
+
+    .footer_text {
+        font-size: 1.4rem;
+        line-height: 1.4;
+        margin-bottom: 4rem;
+    }
+
+    .footer_nav {
+        list-style: none;
+        padding: 0 .5rem;
+
+        li {
+            margin-bottom: 1rem;
+        }
+
+        a {
+            opacity: .6;
+            color: $color-text;
+        }
+    }
+}
+
+@media screen and (min-width: $desktop) {
+    .app-footer {
+        .footer_inner {
+            padding: 6rem 0;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .footer_part {
+            flex: 0 1 50rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            &:last-child {
+                flex: 0 1 auto;
+            }
+        }
+
+        .footer_logo {
+            margin-bottom: auto;
+        }
+
+        .footer_text {
+            margin-bottom: 0;
+        }
+
+        .footer_nav {
+            margin-bottom: auto;
+        }
+    }
+}
